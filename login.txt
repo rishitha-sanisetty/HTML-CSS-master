@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>Registration Form</title>
+	<style type="text/css">
+		#b1
+		{
+			background-color:dodgerblue;
+			color:white;
+			height:2.5em;
+			width:18em;
+			border-radius:8px;
+			border:none;
+			font-family:arial;
+			font-weight:bold;
+			font-size:14px;
+			letter-spacing:1px;
+		}
+		#b2
+		{
+			height:30px;
+			background:#3d5b99;
+			color:white;
+			font-family:tahoma;
+			font-size:14px;
+			font-weight:bold;
+			width:18em;
+			height:2.5em;
+			border-radius:8px;
+			border:none;
+
+		}
+		#b3
+		{
+			height:30px;
+			background:#DB4437;
+			color:white;
+			width:18em;
+			height:2.5em;
+			font-family:"Footlight MT Light";
+			font-size:14px;
+			font-weight:bold;
+			border-radius:8px;
+			border:none;
+		}
+		#b4
+		{
+			height:30px;
+			background:#9ACD32;
+			color:white;
+			font-family:arial;
+			font-size:14px;
+			font-weight:bold;
+			width:18em;
+			height:2.5em;
+			border-radius:8px;
+			border:none;
+			letter-spacing:1px;
+		}
+		
+		#f1
+		{
+			text-decoration:none;
+			color:black;
+			padding-right:22px;
+		}
+		#r1
+		{
+			text-decoration:none;
+			color:black;
+			padding-left:25px;
+		}
+	@media screen 
+	and (min-width:500px) 
+	and (maxwidth:1024px)
+	{
+  		/* For tablets: */
+  		.form
+  		{
+  			background-color:palegreen;
+  			display: inline-block;
+  			text-align: center;
+  		}
+  		img
+  		{
+  			width:100%;
+  		}
+
+	}
+	@media screen and (max-width:480px) 
+	{
+		/* for mobiles*/
+		.form
+  		{
+  			background-color:pink;
+  			display: inline-block;
+  			text-align: center;
+  		}
+  		img
+  		{
+  			width:100%;
+  		}
+	}
+	</style>
+</head>
+<body align="center">
+	<center>
+		<img src="signin.png" id="img">
+		<br/>
+	<form class="form">
+		<br/>
+		<input type="text" class="y1" placeholder="mail@example.com" style="height:2em" size="30" >
+		<br/><br/>
+		<input type="text" placeholder="password"style="height:2em" size="30">
+		<br/><br/>
+		<input type="button" id="b1" value="SIGN IN">
+		<br/><br/>
+		<a href="" id="f1">Forgot your password</a>
+		<a href="" id="r1">Register!</a>
+		<br/><br/>
+		<table>
+			<tr>
+				<td style='width:5.8em'><hr/></td>
+				<td style='width:3.2em'>OR</td>
+				<td style='width:5.8em'><hr/></td>
+			</tr>
+		</table>
+		<br/><br/>
+		<input type="button" id="b2" value="f">
+		<br/><br/>
+		<input type="button" id="b3" value="g">
+		<br/><br/><br/>
+		<input type="button" id="b4" value="< EPAM LOGIN >">
+	</form>
+</center>
+</body>
+</html>
